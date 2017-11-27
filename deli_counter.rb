@@ -35,9 +35,9 @@
 
 # Write your code here
 
-katz_deli = []
-other_deli = ["Logan", "Avi", "Spencer"]
-another_deli = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi", "Joe", "Rachel", "Lindsey"]
+# katz_deli = []
+# other_deli = ["Logan", "Avi", "Spencer"]
+# another_deli = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi", "Joe", "Rachel", "Lindsey"]
 
 
   def line(arr)
@@ -66,7 +66,7 @@ another_deli = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi"
     katz_deli.shift
   end
 
-
-line(katz_deli)
-line(other_deli)
-take_a_number(other_deli, "Josh")
+# 
+# line(katz_deli)
+# line(other_deli)
+# take_a_number(other_deli, "Josh")
