@@ -58,7 +58,7 @@
     else
       puts "Welcome, #{name}. You are number #{arr.length + 1} in line"
     end
-    line(arr << name)
+    arr << name
   end
 
   def now_serving
