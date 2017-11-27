@@ -49,7 +49,7 @@ another_deli = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi"
       arr.each_with_index {|n, i| current_line << "#{i + 1}. #{n}"}
       puts "The line is currently: #{current_line.join(" ")}"
     end
-    # current_line
+    current_line
   end
 
   def take_a_number(arr, name)
