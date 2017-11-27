@@ -65,3 +65,7 @@ another_deli = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi"
     puts line.length == 0 ? "There is nobody waiting to be served!" : "Currently serving #{katz_deli[0]}"
     katz_deli.shift
   end
+
+
+line(katz_deli)
+line(other_deli)
