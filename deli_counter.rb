@@ -3,7 +3,7 @@ class DeliCounter
 
  katz_deli = []
 
-# decouple position & name to increase usability
+# decouple position & name to increase usability --- return value example ["Greg 1.", "Kurt 2.", "Jake 3."]
  def line(arr)
    current_line =[]
 
