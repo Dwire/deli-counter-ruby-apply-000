@@ -7,10 +7,10 @@ class DeliCounter
  def line(arr)
    current_line =[]
 
-   if arr.length == 0
+   if katz_deli.length == 0
      puts "The line is currently empty."
    else
-     arr.each_with_index {|n, i| current_line << "#{n} #{i + 1}."}
+     katz_deli.each_with_index {|n, i| current_line << "#{n} #{i + 1}."}
      puts "The line is currently: #{current_line.join(" ")}"
    end
    current_line
