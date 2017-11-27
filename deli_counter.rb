@@ -33,13 +33,11 @@
 #
 # end
 
-# Write your code here.
+# Write your code here
 
-def deli_counter
-
-# katz_deli = []
-# other_deli = ["Logan", "Avi", "Spencer"]
-# another_deli = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi", "Joe", "Rachel", "Lindsey"]
+katz_deli = []
+other_deli = ["Logan", "Avi", "Spencer"]
+another_deli = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi", "Joe", "Rachel", "Lindsey"]
 
 
   def line(arr)
@@ -54,8 +52,8 @@ def deli_counter
     # current_line
   end
 
-  def take_a_number(name)
-    if line.length == 0
+  def take_a_number(arr, name)
+    if line(arr).length == 0
       puts "Welcome, #{name}. You are number 1 in line."
     else
       puts "Welcome, #{name}. You are number #{line.length + 1} in line"
