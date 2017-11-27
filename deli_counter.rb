@@ -13,7 +13,7 @@ class DeliCounter
      arr.each_with_index {|n, i| current_line << "#{n} #{i + 1}."}
      puts "The line is currently: #{current_line.join(" ")}"
    end
-   current_line
+   p current_line
  end
 
  def take_a_number
