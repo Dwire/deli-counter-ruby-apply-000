@@ -46,10 +46,7 @@ another_deli = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi"
     if arr.length == 0
       puts "The line is currently empty."
     else
-      arr.each_with_index do |n, i|
-        current_line << "#{n}"
-        current_line << "#{i + 1}."
-      end
+      arr.each_with_index {|n, i| current_line << "#{n} #{i + 1}."}
       puts "The line is currently: #{current_line.join(" ")}"
     end
     # current_line
@@ -69,7 +66,7 @@ another_deli = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi"
     katz_deli.shift
   end
 
-#
-# line(katz_deli)
-# line(other_deli)
-# take_a_number(other_deli, "Josh")
+
+line(katz_deli)
+line(other_deli)
+take_a_number(other_deli, "Josh")
