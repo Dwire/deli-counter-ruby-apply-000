@@ -41,7 +41,7 @@
 
 
   def line(arr)
-    current_line =[]
+    current_line = arr
 
     if arr.length == 0
       puts "The line is currently empty."
@@ -58,7 +58,7 @@
     else
       puts "Welcome, #{name}. You are number #{arr.length + 1} in line"
     end
-    arr << name
+    line(arr << name)
   end
 
   def now_serving
