@@ -66,7 +66,6 @@ another_deli = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi"
     katz_deli.shift
   end
 
-end
 
 line(katz_deli)
 line(other_deli)
