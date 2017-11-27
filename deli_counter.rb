@@ -25,4 +25,3 @@
     puts arr.length == 0 ? "There is nobody waiting to be served!" : "Currently serving #{arr[0]}."
     arr.shift
   end
-
