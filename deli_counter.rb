@@ -66,7 +66,7 @@
     katz_deli.shift
   end
 
-# 
+#
 # line(katz_deli)
 # line(other_deli)
 # take_a_number(other_deli, "Josh")
