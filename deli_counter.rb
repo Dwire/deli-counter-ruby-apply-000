@@ -27,6 +27,6 @@ class DeliCounter
   def now_serving
    puts line.length == 0 ? "There is nobody waiting to be served!" : "Currently serving #{@@katz_deli[0]}"
    @@katz_deli.shift
- end
+  end
 
 end
