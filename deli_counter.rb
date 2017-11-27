@@ -35,9 +35,11 @@
 
 # Write your code here.
 
-katz_deli = []
-other_deli = ["Logan", "Avi", "Spencer"]
-another_deli = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi", "Joe", "Rachel", "Lindsey"]
+def deli_counter
+
+# katz_deli = []
+# other_deli = ["Logan", "Avi", "Spencer"]
+# another_deli = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi", "Joe", "Rachel", "Lindsey"]
 
 
   def line(arr)
@@ -66,6 +68,7 @@ another_deli = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi"
     katz_deli.shift
   end
 
-
-line(katz_deli)
-line(other_deli)
+end
+#
+# line(katz_deli)
+# line(other_deli)
