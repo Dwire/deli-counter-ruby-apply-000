@@ -46,7 +46,7 @@ another_deli = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi"
     if arr.length == 0
       puts "The line is currently empty."
     else
-      arr.each_with_index {|n, i| current_line << "#{n} #{i + 1}."}
+      arr.each_with_index {|n, i| current_line << "#{i + 1}. #{n}"}
       puts "The line is currently: #{current_line.join(" ")}"
     end
     # current_line
