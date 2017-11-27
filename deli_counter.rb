@@ -49,6 +49,7 @@ another_deli = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi"
       arr.each_with_index do |n, i|
         current_line << "#{n}"
         current_line << "#{i + 1}."
+      end
       puts "The line is currently: #{current_line.join(" ")}"
     end
     # current_line
