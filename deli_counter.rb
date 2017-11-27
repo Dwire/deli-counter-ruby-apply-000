@@ -67,6 +67,7 @@ another_deli = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi"
   end
 
 end
-#
-# line(katz_deli)
-# line(other_deli)
+
+line(katz_deli)
+line(other_deli)
+take_a_number(other_deli, "Josh")
