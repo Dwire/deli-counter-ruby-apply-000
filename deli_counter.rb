@@ -53,12 +53,12 @@
   end
 
   def take_a_number(arr, name)
-    if line(arr).length == 0
+    if arr.length == 0
       puts "Welcome, #{name}. You are number 1 in line."
     else
-      puts "Welcome, #{name}. You are number #{line.length + 1} in line"
+      puts "Welcome, #{name}. You are number #{arr.length + 1} in line"
     end
-    katz_deli << name
+    arr << name
   end
 
   def now_serving
