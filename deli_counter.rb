@@ -63,4 +63,3 @@
     katz_deli.shift
   end
 
-end
