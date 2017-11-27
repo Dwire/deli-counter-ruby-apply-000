@@ -41,7 +41,7 @@
 
 
   def line(arr)
-    current_line = arr
+    current_line =[]
 
     if arr.length == 0
       puts "The line is currently empty."
