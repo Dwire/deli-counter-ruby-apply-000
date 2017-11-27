@@ -1,6 +1,6 @@
 # Write your code here.
 class DeliCounter
-# katz_deli = [] //////// Initialize this as an instance variable for each day.
+# Initialize this as an instance variable for each day.
   @@katz_deli = []
 # decouple position & name to increase usability --- return value example ["Greg 1.", "Kurt 2.", "Jake 3."]
   def line
